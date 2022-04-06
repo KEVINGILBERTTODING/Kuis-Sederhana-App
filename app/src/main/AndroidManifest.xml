@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KuisSederhanaApp">
         <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".SoalEssay"
             android:exported="true" />
         <activity
@@ -19,7 +22,7 @@
             android:name=".kuis_pilihan_ganda"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
