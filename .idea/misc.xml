@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/KuisSederhanaApp/app/src/main/res/drawable/card2.xml" value="0.35208333333333336" />
+        <entry key="..\:/KuisSederhanaApp/app/src/main/res/drawable/content1.xml" value="0.35208333333333336" />
+        <entry key="..\:/KuisSederhanaApp/app/src/main/res/layout/activity_hasil_skoring.xml" value="0.33177083333333335" />
+        <entry key="..\:/KuisSederhanaApp/app/src/main/res/layout/activity_kuis_pilihan_ganda.xml" value="0.33177083333333335" />
+        <entry key="..\:/KuisSederhanaApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/KuisSederhanaApp/app/src/main/res/layout/activity_soal_essay.xml" value="0.33177083333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/container"
+    android:orientation="vertical"
+    tools:context=".SoalEssay">
+    <LinearLayout
+        android:fontFamily="@font/popsem"
+        android:id="@+id/lineSkor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp">
+        <TextView
+            android:fontFamily="@font/popsem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SKOR : "
+            android:textSize="22sp"/>
+        <TextView
+            android:fontFamily="@font/popsem"
+            android:id="@+id/tvSkor1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="22sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lineSoal1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/lineSkor"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+        <TextView
+            android:fontFamily="@font/popsem"
+            android:id="@+id/tvSoal1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#fff"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linePilihanJawaban"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/lineSoal1"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:fontFamily="@font/popsem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_JwbnEssay"
+
+            />
+
+    </LinearLayout>
+    <Button
+        android:fontFamily="@font/popsem"
+        android:id="@+id/btnSubmit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linePilihanJawaban"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:background="#5ed76c"
+        android:text="SUBMIT"/>
+</RelativeLayout>
